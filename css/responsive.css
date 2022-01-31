@@ -1,0 +1,91 @@
+@media only screen and (max-width:1160px) {
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        transition: all 0.7s ease-in;
+        height: 500px;
+    }
+
+    .rightnav {
+        text-align: center;
+        width: 50%;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 80px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .text-big {
+        font-size: 20px;
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    
+    .text-small {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .secondHalf img {
+        width: 70px;
+        height: 70px;
+    }
+    .btn {
+        text-align: center;
+        padding: 6px 25px;
+        font-size: 14px;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .section img{
+        margin-top: 15px;
+        width: 113px;
+    }
+    .paras{
+        padding: 0px;
+    }
+    .sectionsubtag{
+        text-align: left !important;
+    }
+    .text-transformation{
+        font-size: 25px;
+    }
+    .form{
+    font-size: 20px;
+    }
+    .form-input{
+        font-size: 15px;
+        margin: 9px auto;
+        border: 1px solid black;
+    }
+    .Contact{
+        height: 540px;
+    }
+    .center-footer{
+        font-size: 15px;
+        height: 15px;
+    }
+}
